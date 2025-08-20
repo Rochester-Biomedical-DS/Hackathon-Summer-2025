@@ -26,7 +26,6 @@ def train_with_pseudoinverse(csv_file):
     for exp_idx, exp_name in enumerate(experiment_names):
         perturbed_genes = parse_experiment_name(exp_name)
         for gene in perturbed_genes:
-            print(f"Found perturbed gene in experiment {exp_name}: {gene}")
             if gene in gene_names:
                 gene_idx = gene_names.index(gene)
                 X[exp_idx, gene_idx] = 1
@@ -48,7 +47,6 @@ def predict_with_pseudoinverse(coefficients, gene_names, genes_to_perturb):
     features = np.zeros(len(gene_names))
     for gene in genes_to_perturb:
         if gene in gene_names:
-            print(f"Perturbing gene: {gene}")
             gene_idx = gene_names.index(gene)
             features[gene_idx] = 1
     
@@ -59,7 +57,6 @@ def predict_with_pseudoinverse(coefficients, gene_names, genes_to_perturb):
     predictions = features_with_bias @ coefficients
     
     # Return as dictionary
-    print("Prediction complete.")
     return {gene: pred for gene, pred in zip(gene_names, predictions)}
 
 # Usage
