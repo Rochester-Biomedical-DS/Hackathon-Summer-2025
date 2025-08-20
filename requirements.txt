@@ -1,0 +1,14 @@
+Bottleneck @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_55txi4fy1u/croot/bottleneck_1731058642212/work
+joblib @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_ab63pvs6mh/croot/joblib_1754310212451/work
+numexpr @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_59ckh5l11x/croot/numexpr_1752521724434/work
+numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_15fk808o03/croot/numpy_and_numpy_base_1750883807193/work/dist/numpy-2.3.1-cp313-cp313-macosx_11_0_arm64.whl#sha256=5eca95f71311403d53b0c82f69c6d795543a695241dc0a0673c24cf532481fce
+pandas @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5d428janjn/croot/pandas_1752846501836/work/dist/pandas-2.3.1-cp313-cp313-macosx_11_0_arm64.whl#sha256=27492143a4b026f0eb92fc89841272bb8c376bb46b4986baffa6d2620565b12e
+python-dateutil @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/python-dateutil_1728585579455/work
+pytz @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_3bjczh6it0/croot/pytz_1752135865541/work
+scikit-learn @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_aew5bgsgui/croot/scikit-learn_1753427393651/work
+scipy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a6tduwqpgl/croot/scipy_1753384422235/work/dist/scipy-1.16.0-cp313-cp313-macosx_11_0_arm64.whl#sha256=dc5817ef72a356fc89c1e9d93c1daab762725a714879182fd69195942bf39a08
+setuptools==72.1.0
+six @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_03myqm7p6o/croot/six_1744271511946/work
+threadpoolctl @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_18rgexrkuo/croot/threadpoolctl_1731006101562/work
+tzdata @ file:///croot/python-tzdata_1746123641790/work
+wheel==0.45.1
