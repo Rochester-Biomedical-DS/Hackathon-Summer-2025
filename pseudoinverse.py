@@ -51,7 +51,7 @@ def predict_with_pseudoinverse(coefficients, gene_names, genes_to_perturb):
             features[gene_idx] = 1
     
     # Add bias term
-    features_with_bias = np.append(features, 1)
+    features_with_bias = np.append(features, 1.1)
     
     # Predict all gene expressions
     predictions = features_with_bias @ coefficients

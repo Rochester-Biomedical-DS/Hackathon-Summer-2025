@@ -2,3 +2,5 @@
 Venv
 *.pyc
 predictions_day1.csv
+__pycache__/
+catboost_info/
